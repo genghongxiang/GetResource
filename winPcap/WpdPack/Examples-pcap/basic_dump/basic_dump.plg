@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: basic_dump - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\dbo\LOCALS~1\Temp\RSP31B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../" /I "../bpf/" /I "../lbl/" /I "../../Include/" /I "D:/Program Files/Microsoft Platform SDK/include" /D "_DEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_UNICODE" /D "WPCAP" /D "HAVE_REMOTE" /FR"Debug/" /Fp"Debug/basic_dump.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\books\WinPcap Document V4.01\WpdPack\Examples-pcap\basic_dump\basic_dump.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\dbo\LOCALS~1\Temp\RSP31B.tmp" 
+Creating temporary file "C:\DOCUME~1\dbo\LOCALS~1\Temp\RSP31C.tmp" with contents
+[
+wsock32.lib ws2_32.lib Iphlpapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/basic_dump.pdb" /debug /machine:I386 /out:"Debug/basic_dump.exe" /pdbtype:sept 
+".\Debug\basic_dump.obj"
+"..\..\lib\Wpcap.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\dbo\LOCALS~1\Temp\RSP31C.tmp"
+<h3>Output Window</h3>
+Compiling...
+basic_dump.c
+Linking...
+LINK : fatal error LNK1104: cannot open file "Iphlpapi.lib"
+Error executing link.exe.
+Creating command line "bscmake.exe /nologo /o"Debug/basic_dump.bsc"  ".\Debug\basic_dump.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+basic_dump.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

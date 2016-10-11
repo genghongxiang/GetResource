@@ -1,0 +1,61 @@
+<Config>	
+	<Ext>
+		<node value=".mp4"/>
+		<node value=".f4v"/>
+		<node value=".flv"/>
+		<node value=".ts"/>
+		<node value=".m2ts"/>
+		<node value=".m3u8"/>
+		<node value=".m4r"/>
+		<node value=".m4v"/>	
+		<node value=".wmv"/>
+		<node value=".avi"/>
+		<node value=".rmvb"/>
+		<node value=".rm"/>
+		<node value=".asf"/>
+		<node value=".divx"/>
+		<node value=".mpg"/>
+		<node value=".mpeg"/>
+		<node value=".mpe"/>
+		<node value=".mkv"/>
+		<node value=".vob"/>
+		<node value=".hlv"/>		
+	</Ext>
+	
+	<NetCardNo>
+		<node value="4"/>
+	</NetCardNo>
+	
+	<MyRuler>
+		<!-- action: 1,use; 2,discard; 3,intercept path
+			&lt;        <        小于号
+			&gt;        >        大于号
+			&amp;       &        和
+			&apos;      '        单引号
+			&quot;      "        双引号	
+		-->
+		<!--Ruler id=0 action="1">
+			<Item type="host" value=".youku.com">
+			<Item type="path" value="/youku/" />
+		</Ruler-->
+		<!--Ruler id=0 action="2">
+			<Item type="host" value=".youku.com">
+			<Item type="path" value="/youku/" />
+		</Ruler-->
+		<Ruler id=0 action="3">
+			<Item type="path" value="/youku/" />
+		</Ruler>
+		
+		<Ruler id=1 action="3">
+			<Item type="path" value="/videos/v0/" />
+			<Item type="path" value="&amp;range=" />
+		</Ruler>
+		
+		<Ruler id=2 action="3">
+			<Item type="path" value="/letv-uts/" />
+			<Item type="path" value="&amp;rstart=" />
+			<Item type="path" value="&amp;rend=" />		
+		</Ruler>
+	</MyRuler>
+</Config>	
+	
