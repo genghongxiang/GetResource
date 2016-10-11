@@ -30,7 +30,7 @@
 		<!-- action: 1,use; 2,discard; 3,intercept path
 			&lt;        <        11小于号
 			&gt;        >        11大于号
-			&amp;       &        和
+			&amp;       &        11和
 			&apos;      '        单引号
 			&quot;      "        双引号	
 		-->
